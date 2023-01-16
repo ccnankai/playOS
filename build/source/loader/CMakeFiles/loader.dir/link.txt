@@ -1,0 +1,1 @@
+ld CMakeFiles/loader.dir/start.S.obj CMakeFiles/loader.dir/loader_16.c.obj CMakeFiles/loader.dir/loader_32.c.obj -m elf_i386  -Ttext=0x800 -o /LocalRun/wendong.song/diyos/playOS/build/source/loader/loader.elf
