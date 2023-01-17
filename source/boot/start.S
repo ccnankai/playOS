@@ -9,7 +9,6 @@
 	#include "boot.h"
 
   	// 16位代码，务必加上
-	  
   	.code16
  	.text
 	.global _start
@@ -43,9 +42,10 @@ read_loader:
 	int $0x13
 	jc read_loader
 
+	// 跳转至c部分执行，再由c部分做一些处理
 	jmp boot_entry
 
-	// 
+	// 原地跳转
 	jmp .
 
 	// 引导结束段
