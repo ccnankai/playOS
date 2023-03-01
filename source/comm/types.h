@@ -1,3 +1,9 @@
+/**
+ * 系统内部的基本数据类型
+ *
+ * 作者：李述铜
+ * 联系邮箱: 527676163@qq.com
+ */
 #ifndef TYPES_H
 #define TYPES_H
 
@@ -19,4 +25,5 @@ typedef unsigned short uint16_t;
 typedef unsigned long uint32_t;
 #endif
 
-#endif 
+#endif
+

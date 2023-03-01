@@ -18,7 +18,6 @@ fi
 
 export DISK1_NAME=disk1.img
 
-
 # 写boot区，定位到磁盘开头，写1个块：512字节
 dd if=boot.bin of=$DISK1_NAME bs=512 conv=notrunc count=1
 
@@ -26,7 +25,7 @@ dd if=boot.bin of=$DISK1_NAME bs=512 conv=notrunc count=1
 dd if=loader.bin of=$DISK1_NAME bs=512 conv=notrunc seek=1
 
 # 写kernel区，定位到磁盘第100个块
-# dd if=kernel.elf of=$DISK1_NAME bs=512 conv=notrunc seek=100
+dd if=kernel.elf of=$DISK1_NAME bs=512 conv=notrunc seek=100
 
 # 写应用程序init，临时使用
 # dd if=init.elf of=$DISK1_NAME bs=512 conv=notrunc seek=5000

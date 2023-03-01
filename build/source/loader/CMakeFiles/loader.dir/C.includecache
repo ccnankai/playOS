@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../source/comm/boot_info.h
+types.h
+../source/comm/types.h
+
+../source/comm/cpu_instr.h
+types.h
+../source/comm/types.h
+
+../source/comm/types.h
+
+/LocalRun/wendong.song/diyos/playOS/source/loader/loader.h
+comm/types.h
+/LocalRun/wendong.song/diyos/playOS/source/loader/comm/types.h
+comm/boot_info.h
+/LocalRun/wendong.song/diyos/playOS/source/loader/comm/boot_info.h
+comm/cpu_instr.h
+/LocalRun/wendong.song/diyos/playOS/source/loader/comm/cpu_instr.h
+
+/LocalRun/wendong.song/diyos/playOS/source/loader/loader_16.c
+loader.h
+/LocalRun/wendong.song/diyos/playOS/source/loader/loader.h
+
+/LocalRun/wendong.song/diyos/playOS/source/loader/loader_32.c
+loader.h
+/LocalRun/wendong.song/diyos/playOS/source/loader/loader.h
+

@@ -1,0 +1,11 @@
+/LocalRun/wendong.song/diyos/playOS/build/CMakeFiles/rebuild_cache.dir
+/LocalRun/wendong.song/diyos/playOS/build/CMakeFiles/edit_cache.dir
+/LocalRun/wendong.song/diyos/playOS/build/source/boot/CMakeFiles/rebuild_cache.dir
+/LocalRun/wendong.song/diyos/playOS/build/source/boot/CMakeFiles/edit_cache.dir
+/LocalRun/wendong.song/diyos/playOS/build/source/boot/CMakeFiles/boot.dir
+/LocalRun/wendong.song/diyos/playOS/build/source/loader/CMakeFiles/rebuild_cache.dir
+/LocalRun/wendong.song/diyos/playOS/build/source/loader/CMakeFiles/edit_cache.dir
+/LocalRun/wendong.song/diyos/playOS/build/source/loader/CMakeFiles/loader.dir
+/LocalRun/wendong.song/diyos/playOS/build/source/kernel/CMakeFiles/rebuild_cache.dir
+/LocalRun/wendong.song/diyos/playOS/build/source/kernel/CMakeFiles/edit_cache.dir
+/LocalRun/wendong.song/diyos/playOS/build/source/kernel/CMakeFiles/kernel.dir

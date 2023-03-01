@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/LocalRun/wendong.song/diyos/playOS/source/boot/boot.h
+
+/LocalRun/wendong.song/diyos/playOS/source/boot/start.S
+boot.h
+/LocalRun/wendong.song/diyos/playOS/source/boot/boot.h
+

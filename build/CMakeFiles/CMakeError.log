@@ -1,0 +1,70 @@
+Detecting C compiler ABI info failed to compile with the following output:
+Change Dir: /LocalRun/wendong.song/diyos/playOS/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_490d1/fast && /usr/bin/make  -f CMakeFiles/cmTC_490d1.dir/build.make CMakeFiles/cmTC_490d1.dir/build
+make[1]: Entering directory '/LocalRun/wendong.song/diyos/playOS/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_490d1.dir/CMakeCCompilerABI.c.obj
+/usr/bin/gcc   -g -c -O0 -m32 -fno-pie -fno-stack-protector -fno-asynchronous-unwind-tables    -v -o CMakeFiles/cmTC_490d1.dir/CMakeCCompilerABI.c.obj -c /usr/local/share/cmake-3.19/Modules/CMakeCCompilerABI.c
+Using built-in specs.
+COLLECT_GCC=/usr/bin/gcc
+OFFLOAD_TARGET_NAMES=nvptx-none
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 7.5.0-3ubuntu1~18.04' --with-bugurl=file:///usr/share/doc/gcc-7/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++ --prefix=/usr --with-gcc-major-version-only --program-suffix=-7 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 7.5.0 (Ubuntu 7.5.0-3ubuntu1~18.04) 
+COLLECT_GCC_OPTIONS='-g' '-c' '-O0' '-m32' '-fno-pie' '-fno-stack-protector' '-fno-asynchronous-unwind-tables' '-v' '-o' 'CMakeFiles/cmTC_490d1.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=i686'
+ /usr/lib/gcc/x86_64-linux-gnu/7/cc1 -quiet -v -imultilib 32 -imultiarch i386-linux-gnu /usr/local/share/cmake-3.19/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -m32 -mtune=generic -march=i686 -auxbase-strip CMakeFiles/cmTC_490d1.dir/CMakeCCompilerABI.c.obj -g -O0 -version -fno-pie -fno-stack-protector -fno-asynchronous-unwind-tables -Wformat -Wformat-security -o /tmp/cc8zSdQP.s
+GNU C11 (Ubuntu 7.5.0-3ubuntu1~18.04) version 7.5.0 (x86_64-linux-gnu)
+	compiled by GNU C version 7.5.0, GMP version 6.1.2, MPFR version 4.0.1, MPC version 1.1.0, isl version isl-0.19-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/usr/local/include/i386-linux-gnu"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/7/../../../../x86_64-linux-gnu/include"
+ignoring nonexistent directory "/usr/include/i386-linux-gnu"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/lib/gcc/x86_64-linux-gnu/7/include
+ /usr/local/include
+ /usr/lib/gcc/x86_64-linux-gnu/7/include-fixed
+ /usr/include
+End of search list.
+GNU C11 (Ubuntu 7.5.0-3ubuntu1~18.04) version 7.5.0 (x86_64-linux-gnu)
+	compiled by GNU C version 7.5.0, GMP version 6.1.2, MPFR version 4.0.1, MPC version 1.1.0, isl version isl-0.19-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: b62ed4a2880cd4159476ea8293b72fa8
+COLLECT_GCC_OPTIONS='-g' '-c' '-O0' '-m32' '-fno-pie' '-fno-stack-protector' '-fno-asynchronous-unwind-tables' '-v' '-o' 'CMakeFiles/cmTC_490d1.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=i686'
+ as -v --32 -o CMakeFiles/cmTC_490d1.dir/CMakeCCompilerABI.c.obj /tmp/cc8zSdQP.s
+GNU assembler version 2.30 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.30
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/32/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../i386-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib32/:/lib/i386-linux-gnu/:/lib/../lib32/:/usr/lib/i386-linux-gnu/:/usr/lib/../lib32/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../i386-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/i386-linux-gnu/:/lib/:/usr/lib/i386-linux-gnu/:/usr/lib/
+COLLECT_GCC_OPTIONS='-g' '-c' '-O0' '-m32' '-fno-pie' '-fno-stack-protector' '-fno-asynchronous-unwind-tables' '-v' '-o' 'CMakeFiles/cmTC_490d1.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=i686'
+Linking C executable cmTC_490d1
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_490d1.dir/link.txt --verbose=1
+/usr/bin/gcc -g -c -O0 -m32 -fno-pie -fno-stack-protector -fno-asynchronous-unwind-tables   -v CMakeFiles/cmTC_490d1.dir/CMakeCCompilerABI.c.obj -o cmTC_490d1 
+Using built-in specs.
+COLLECT_GCC=/usr/bin/gcc
+OFFLOAD_TARGET_NAMES=nvptx-none
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 7.5.0-3ubuntu1~18.04' --with-bugurl=file:///usr/share/doc/gcc-7/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++ --prefix=/usr --with-gcc-major-version-only --program-suffix=-7 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 7.5.0 (Ubuntu 7.5.0-3ubuntu1~18.04) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/32/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../i386-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib32/:/lib/i386-linux-gnu/:/lib/../lib32/:/usr/lib/i386-linux-gnu/:/usr/lib/../lib32/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../i386-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/i386-linux-gnu/:/lib/:/usr/lib/i386-linux-gnu/:/usr/lib/
+COLLECT_GCC_OPTIONS='-g' '-c' '-O0' '-m32' '-fno-pie' '-fno-stack-protector' '-fno-asynchronous-unwind-tables' '-v' '-o' 'cmTC_490d1' '-mtune=generic' '-march=i686'
+gcc: warning: CMakeFiles/cmTC_490d1.dir/CMakeCCompilerABI.c.obj: linker input file unused because linking not done
+make[1]: Leaving directory '/LocalRun/wendong.song/diyos/playOS/build/CMakeFiles/CMakeTmp'
+
+
+Cannot copy output executable
+  ''
+to destination specified by COPY_FILE:
+  '/LocalRun/wendong.song/diyos/playOS/build/CMakeFiles/3.19.8/CMakeDetermineCompilerABI_C.bin'
+Unable to find the executable at any of:
+  /LocalRun/wendong.song/diyos/playOS/build/CMakeFiles/CMakeTmp/cmTC_490d1
+  /LocalRun/wendong.song/diyos/playOS/build/CMakeFiles/CMakeTmp/Debug/cmTC_490d1
+  /LocalRun/wendong.song/diyos/playOS/build/CMakeFiles/CMakeTmp/Development/cmTC_490d1
+
+

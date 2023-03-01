@@ -34,6 +34,22 @@
 			"value" : "/usr/bin/ar"
 		},
 		{
+			"name" : "CMAKE_ASM_COMPILER",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "(This variable does not exist and should not be used)"
+				}
+			],
+			"type" : "UNINITIALIZED",
+			"value" : ""
+		},
+		{
 			"name" : "CMAKE_ASM_COMPILER_AR",
 			"properties" : 
 			[
@@ -268,6 +284,22 @@
 			],
 			"type" : "INTERNAL",
 			"value" : "/usr/local/bin/ctest"
+		},
+		{
+			"name" : "CMAKE_C_COMPILER",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "(This variable does not exist and should not be used)"
+				}
+			],
+			"type" : "UNINITIALIZED",
+			"value" : ""
 		},
 		{
 			"name" : "CMAKE_C_COMPILER_AR",
@@ -727,7 +759,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "3"
+			"value" : "4"
 		},
 		{
 			"name" : "CMAKE_OBJCOPY",
@@ -1112,6 +1144,30 @@
 			],
 			"type" : "STATIC",
 			"value" : "/LocalRun/wendong.song/diyos/playOS/source/boot"
+		},
+		{
+			"name" : "kernel_BINARY_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "/LocalRun/wendong.song/diyos/playOS/build/source/kernel"
+		},
+		{
+			"name" : "kernel_SOURCE_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "/LocalRun/wendong.song/diyos/playOS/source/kernel"
 		},
 		{
 			"name" : "loader_BINARY_DIR",
